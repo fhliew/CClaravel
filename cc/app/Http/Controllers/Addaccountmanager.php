@@ -1,10 +1,11 @@
 <?php
     session_start();
     include "CCa.php";
-    $useraccount = getallusersaccounts($_SESSION['user_id']);
+    $user_id=1;
+    $useraccount = getallusersaccounts($user_id);
     if (isset($_POST['submit_add-user'])) {
         popupmessage('Try to add user with name '.$_POST['name']);
-        if(addusercc($_SESSION['user_id'],$_POST['account'],6,7,$_POST['note'],'active')) {
+        if(addusercc($user_id,$_POST['account'],6,7,$_POST['note'],'active')) {
            
         } 
     }

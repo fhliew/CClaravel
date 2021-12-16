@@ -305,6 +305,7 @@ function getallactiveuserscompanies($user_id){
 }
 function getcompany_name($company_id){
     $result = mysqli_query($GLOBALS['connection'],"select * from `company` where company_id = $company_id limit 1");
+    if(!$result || mysqli_num_rows($result) === 0) return '';
     $result =  mysqli_fetch_all($result, MYSQLI_ASSOC);
     return $result[0]['name'];
 }

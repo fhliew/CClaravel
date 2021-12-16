@@ -1,0 +1,296 @@
+input {
+    font-size: 10px;
+    border: none; 
+    padding-left : 0px;
+    font-family: Helvetica;
+    font-style: normal;
+}
+#line{
+    height: 1px;
+    MARGIN-LEFT: 0px;
+    MARGIN-TOP: 5px;
+}
+#line_short{
+    height: 1px;
+    MARGIN-LEFT: 31px;
+    MARGIN-TOP: 0;
+}
+#input_select{
+    padding-left: 32px;
+}
+
+#input_details{
+    width: 100%;
+    height: 14px;
+    left: 27px;
+    top: 131px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+}
+
+#exit_request_button{
+    border: none; 
+    float: right;
+    margin-right:20px;
+    margin-top:-29px;
+}
+
+#button_text{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#addrecordmoredetailsspadding{
+    background-color:#12b5331a; 
+    padding-top: 11px;
+    padding-left: 30px;
+}
+@media screen and (min-width: 1000px) {
+    #addrecordmoredetailsspadding{
+        background-color:#12b5331a; 
+        padding-top: 11px;
+        padding-left: 36px;
+    }
+}
+
+#addaccounttoppadding{
+    padding-top: 5px;
+}
+#addaccounthistory{
+    padding-left: 14px;
+    background-color:#12b5331a; 
+    padding-top: 11px;
+}
+@media screen and (min-width: 1000px) {
+    #addaccounttoppadding{
+      padding-top: 70px;
+    }
+    #addaccounthistory{
+        padding-left: 44px;
+        background-color:#12b5331a; 
+        padding-top: 11px;
+    }
+}
+
+.topnav{
+    height: 90px;background-color:white;padding-bottom: 395px;
+}
+
+@media screen and (min-width: 1000px) {
+    .topnav{
+      padding-bottom: 395px;
+      padding-top: 65px;
+    }
+}
+.whiteboxA{
+    height: 90px; background-color:white; padding-bottom: 282px;padding-top: 20px;
+}
+@media screen and (min-width: 1000px) {
+    .whiteboxA{
+      padding-bottom: 288px;
+      padding-top: 80px;
+    }
+}
+.whiteboxB{
+    height: 90px; background-color:white; padding-bottom: 178px;padding-top: 0px;
+}
+@media screen and (min-width: 1000px) {
+    .whiteboxB{
+      padding-bottom: 182px;
+      padding-top: 65px;
+    }
+}
+.whiteboxC{
+    height: 90px; background-color:white; padding-bottom: 300px;padding-top: 20px;
+}
+@media screen and (min-width: 1000px) {
+    .whiteboxC{
+      padding-bottom: 309px;
+      padding-top: 80px;
+    }
+}
+
+#balance_margin{
+    height: 45px; width:90%; margin:0 auto;
+    background: white; border-radius: 5px; color: black; 
+    font-weight: bold; font-size: 15px;
+}
+@media screen and (min-width: 1000px) {
+    #balance_margin{
+        height: 45px; 
+        width:90%; 
+        margin:61px auto;
+        background: white; 
+        border-radius: 5px; color: black; 
+        font-weight: bold; 
+        font-size: 15px;
+    }
+}
+.balancewhiteboxpadding{
+    padding-top: 18px;
+}
+@media screen and (min-width: 1000px) {
+    .balancewhiteboxpadding{
+      padding-top: 81px;
+    }
+}
+
+.balancehistory{
+    font-weight: normal; width:100%; padding-left: 5px;
+        text-align: left; color: black; 
+        font-family:Arial, Helvetica, sans-serif; 
+        font-weight: bold ;font-size: 14px;
+}
+@media screen and (min-width: 1000px) {
+    .balancehistory{
+        font-weight: normal; width:100%; padding-left: 34px;
+        text-align: left; color: black; 
+        font-family:Arial, Helvetica, sans-serif; 
+        font-weight: bold ;font-size: 14px;
+    }
+}
+
+#accountselectionpadding{
+    padding-top: 0px;
+}
+@media screen and (min-width: 1000px) {
+    #accountselectionpadding{
+        padding-top: 66px;
+    }
+}
+
+#Requesttitle {
+    display: block;
+    color: white;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 55px;
+}
+#orderNo {
+    float: left;
+}
+
+#input_form{
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    border: 0; 
+    padding-left: 0px;
+    height: 18px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    background: transparent;
+}
+#input_formA{
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    border: none; 
+    padding-left: 0px;
+    margin-bottom: -6px;
+    font-size: 15px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 2;
+    height: 32px;
+    background: transparent;
+}
+.history_table{
+    font-size: 10px;
+    border: none; 
+    padding-left : 0px;
+    font-family: Helvetica;
+    font-style: normal;
+}
+.history_row{
+    margin:0px;
+    background-color: white;
+}
+.history_table_head{
+    background-color:#E2E2E2; padding-left: 10px;margin-top: 20px;padding-top: 5px; height: 30px;
+    font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px;
+}
+#account_card{
+    background: linear-gradient(81.61deg, #00A2EA 21.51%, rgba(0, 162, 234, 0.76) 68.49%, #49BFF3 92.53%);
+    border-radius: 10px;
+    padding-bottom: 18px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 6px 15px #888888;
+}             
+#accountdetails_right{
+    text-align: right; padding-right: 8px; background-color: white; font-size: 14px;
+    color: black; border-radius: 4px; height:25px; padding-top:2px;display:block;
+}   
+#accountdetails_left{
+    text-align: right; padding-right: 8px; background-color: white; font-size: 14px;
+    color: black; border-radius: 4px; height:25px;  padding-top:2px; display:block;
+}
+
+
+.request_list{
+    height:363px !important; 
+    overflow:scroll !important;
+}
+@media screen and (min-height: 812px) {
+    .request_list{
+        height:520px !important; 
+        overflow:scroll !important;
+    }
+}
+
+#record_titlecontentpadding{
+    padding-top:0px;
+    margin-left : 2px;
+}
+@media screen and (min-width: 1000px) {
+    #record_titlecontentpadding{
+        margin-left : -17px;
+        padding-top:24px;
+    }
+}
+
+#request_contentbottompadding{
+    padding-bottom: 448px;
+}
+@media screen and (min-width: 1000px) {
+    #request_contentbottompadding{
+        padding-bottom: 448px;
+    }
+}
+#request_moredetails{
+    padding-top:7px;
+    padding-left: 9px;
+    margin-left: 0px;
+}
+@media screen and (min-width: 1000px) {
+    #request_moredetails{
+        padding-top:14px;
+        padding-left: 0px;
+        margin-left: -23px;
+    }
+}
+#request_margin{
+    margin-left: 0px;
+}
+@media screen and (min-width: 1000px) {
+    #request_margin{
+        margin-left: 32px;
+    }
+}
+

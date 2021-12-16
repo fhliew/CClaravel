@@ -13,4 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{page?}', [Pagecontroller::class,'gotopage']);
+Route::get('/details/{act}/{amount}/{request_id}/{action_type}/{company_id}/{request_type}/{status}/{created_at}/{admins_note?}/{note?}/{receipt_number?}', [Pagecontroller::class,'showrequestdetails']);
+
+Route::get('/{page?}/{value?}', [Pagecontroller::class,'gotopage']);
+Route::get('/accountdetails/{company_id}/{limit_reimburse}/{limit_advance}',
+    function($company_id, $limit_reimburse, $limit_advance){
+        return view('cclayout',[
+            'title' => "Account Details",
+            'url' => "Accountdetails.php",
+            'company_id'=> $company_id,
+            'limit_reimburse'=>$limit_reimburse,
+            'limit_advance'=> $limit_advance,
+            'return_to'=> ''
+        ]);
+});
+
+
+
+
